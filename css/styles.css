@@ -228,9 +228,6 @@ nav {
 .priority-item {
   flex-basis: calc(100% / 4);
 }
-.priority-item * {
-  outline: 1px solid green;
-}
 .priority-item {
   width: 270px;
 }
@@ -279,6 +276,7 @@ nav {
 }
 
 .team-title {
+  margin-bottom: 50px;
   color: var(--basic-text-color);
   font-family: var(--basic-text);
   font-weight: 700;
